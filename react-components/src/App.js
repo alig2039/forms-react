@@ -1,16 +1,10 @@
-import './App.css';
-import FunctionalGreeting from "./components/FunctionalGreeting";
-import StatefulGreeting from "./components/StatefulGreeting";
-import HooksCounter from "./components/HooksCounter";
+import "./App.css";
+import ControlledForm from "./components/UncontrolledForm";
 
 function App() {
-  return (
-    <div className="App">
-      <FunctionalGreeting name="John" />
-      {/* <StatefulGreeting name="Anna" /> */}
-      {/* <HooksCounter name="Mike" /> */}
-    </div>
-  );
+  return <div className="App">
+      <UncontrolledForm />
+  </div>;
 }
 
 export default App;
